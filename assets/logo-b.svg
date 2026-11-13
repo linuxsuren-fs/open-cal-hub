@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Open Cal Hub logo, variant B: hub nodes">
+  <!-- 方案 B：中心枢纽 + 三日历节点 —— 直观表达“多日历汇聚” -->
+  <defs>
+    <linearGradient id="bgB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E1326"/>
+      <stop offset="1" stop-color="#1C2648"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bgB)"/>
+  <!-- 连接线 -->
+  <g stroke="#4F6EF7" stroke-width="4" stroke-linecap="round">
+    <line x1="64" y1="64" x2="34" y2="38"/>
+    <line x1="64" y1="64" x2="94" y2="38"/>
+    <line x1="64" y1="64" x2="64" y2="100"/>
+  </g>
+  <!-- 三个小日历 -->
+  <g>
+    <rect x="18" y="22" width="32" height="28" rx="6" fill="#4F6EF7"/>
+    <rect x="18" y="22" width="32" height="8" rx="4" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="42" y="34" width="10" height="10" rx="2" fill="#9BE8D8"/>
+  </g>
+  <g>
+    <rect x="78" y="22" width="32" height="28" rx="6" fill="#F5A623"/>
+    <rect x="78" y="22" width="32" height="8" rx="4" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="84" y="34" width="10" height="10" rx="2" fill="#ffffff" fill-opacity="0.85"/>
+  </g>
+  <g>
+    <rect x="48" y="88" width="32" height="28" rx="6" fill="#39C48F"/>
+    <rect x="48" y="88" width="32" height="8" rx="4" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="54" y="100" width="10" height="10" rx="2" fill="#ffffff" fill-opacity="0.85"/>
+  </g>
+  <!-- 中心枢纽 -->
+  <circle cx="64" cy="64" r="15" fill="#ffffff"/>
+  <circle cx="64" cy="64" r="15" fill="none" stroke="#4F6EF7" stroke-width="4"/>
+  <circle cx="64" cy="64" r="5" fill="#4F6EF7"/>
+</svg>
